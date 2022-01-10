@@ -70,8 +70,8 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  If(str1.length === str2.length)
-  {return true} esle return false
+  If (str1.length === str2.length)
+  {return true}; esle return false
 }
 
 function menosQueNoventa(num) {
@@ -86,7 +86,7 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   IF (num > 50)
-  (return true) else return false
+  {return true}; else {return false}
 }
 
 function obtenerResto(x, y) {
@@ -97,7 +97,7 @@ function obtenerResto(x, y) {
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
-  // De lo contrario, devuelve "false"
+  // De lo contrario,devuelve "false"
   // Tu código:
   num % 2; IF(num===0) {return true;}
   else {return false;}
@@ -107,18 +107,17 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código: 
-  IF(num % 2 === 1) {
+  IF(num % 2 === 1) ;
     return true;
-  } else {
+   else {
     return false;}
-  
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return num x num
+  return num * num
 }
 
 function elevarAlCubo(num) {
@@ -157,12 +156,9 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   IF ( numero>0 )
-  {return "Es positivo"} 
-else IF (numero<0)
-  {return "Es negativo"}
-esle {return false}
-}
-
+  {return "Es positivo"};
+else if ( numero<0 ){return"Es negativo" } else return false}
+ 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
@@ -220,7 +216,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  IF (letra.length>1) {
+  IF (letra.length>1) ;{
     return "Dato incorrecto"
   }
 }
