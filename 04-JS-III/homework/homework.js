@@ -131,9 +131,11 @@ var count = 0
  for (var i=0; i < arreglo.length; i++){
    if (arrrglo [i] > 18)
  count += 1 
- }
-}
+ } 
+
 return count 
+}
+
 
 function diaDeLaSemana(numeroDeDia) {
   //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente. 
@@ -239,26 +241,22 @@ function continueStatement(numero) {
     }
   
 }
+// No modificar nada debajo de esta línea
+// --------------------------------
 
-const {
-  devolverPrimerElemento,
-  devolverUltimoElemento,
-  obtenerLargoDelArray,
-  incrementarPorUno,
-  agregarItemAlFinalDelArray,
-  agregarItemAlComienzoDelArray,
-  dePalabrasAFrase,
-  arrayContiene,
-  agregarNumeros,
-  promedioResultadosTest,
-  numeroMasGrande,
-  multiplicarArgumentos,
-  cuentoElementos,
-  diaDeLaSemana,
-  empiezaConNueve,
-  todosIguales,
-  mesesDelAño,
-  mayorACien,
-  breakStatement,
-  continueStatement
-};
+};module.exports = {
+  crearGato,
+  agregarPropiedad,
+  invocarMetodo,
+  multiplicarNumeroDesconocidoPorCinco,
+  eliminarPropiedad,
+  nuevoUsuario,
+  tieneEmail,
+  tienePropiedad,
+  verificarPassword,
+  actualizarPassword,
+  agregarAmigo,
+  pasarUsuarioAPremium,
+  sumarLikesDeUsuario,
+  agregarMetodoCalculoDescuento
+};4
