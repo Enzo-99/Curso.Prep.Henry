@@ -25,7 +25,7 @@ I. Cree una página HTML básica.
 ```
 II Añade un poco de estilo
   A. Agregue la etiqueta de estilo a su documento HTML.
-  B. Asignar al tercer div el id "thirdDiv".
+  B. Asignar al tercer #div el id "thirdDiv".
   C. Asignar a los otros divs la clase "divClass".
   D. Asignar al span que se encuentra dentro de su segundo div el id "spanId".
   E. Agregue una regla de estilo a su elemento h1 cambiando el color del texto (Listado de colores: https://www.crockford.com/wrrrld/color.html).
