@@ -1,0 +1,68 @@
+ :root {
+     --nord0:    #2E3440;
+     --nord1:    #3B4252;
+     --nord2:    #434C5E;
+     --nord3:    #4C566A;
+     --nord4:    #D8DEE9;
+     --nord5:    #E5E9F0;
+     --nord6:    #ECEFF4;
+     --nord7:    #8FBCBB;
+     --nord8:    #88C0D0;
+     --nord9:    #81A1C1;
+     --nord10:   #5E81AC;
+     --nord11:   #BF616A;
+     --nord12:   #D08770;
+     --nord13:   #EBCB8B;
+     --nord14:   #A3BE8C;
+     --nord15:   #B48EAD;
+     --font: BlinkMacSystemFont, -apple-sistem, "Segoe UI", "Roboto",
+     "Ubuntu", "Cantarell", "Fire SanS", "Droid Sans", "Helvatica Neu Helvatica",
+      "Arial", sans-serif;
+    }
+/*
+* { outline: 1px solid red;}
+*/
+
+html{
+    background-color: var(--nord7);
+}
+
+body{
+    font-family: var(--font);
+    color: var(--nord3);
+}
+h1{
+    color:var(--nord2);
+}
+
+header img {width: 140px; height: 170px; margin-right: 20px;}
+
+header, section {
+    width: 960px;
+margin: 0 auto;
+}
+
+/* El DISPLAY: flex ... permite ignorar los espacios de una caja y permite
+ubicarla dentro de una misma linea. el ejemplo de la foto con el NOMBRE a un lado de la misma.
+*/
+
+header{
+    display: flex;
+}
+
+/* width: 960px; es el ancho basicho para las HTML, es necesario usar
+ un WIDTH para luego usar un MARGEN: "0 auto"; esto es necesario si queremos centrarlo. 
+*/
+
+div {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* a, a:link, a:visited.... Sirve para modificar el texto de las palablas vinculadas a un link.
+*/
+a, a:link, a:visited {
+    text-decoration: none;
+    color:var(--nord6);
+}
